@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Getting started · Gitlo</title><meta name="description" content="Install Gitlo, open your first repository and take a tour of the interface."><link rel="canonical" href="https://imamx39.github.io/gitlo-releases/en/docs/"><link rel="alternate" hreflang="fr" href="https://imamx39.github.io/gitlo-releases/fr/docs/"><link rel="alternate" hreflang="en" href="https://imamx39.github.io/gitlo-releases/en/docs/"><link rel="icon" type="image/png" href="/gitlo-releases/logo.png"><meta property="og:type" content="website"><meta property="og:title" content="Getting started · Gitlo"><meta property="og:description" content="Install Gitlo, open your first repository and take a tour of the interface."><meta property="og:image" content="https://imamx39.github.io/gitlo-releases/logo.png"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"><script>
+      try {
+        const saved = localStorage.getItem('gitlo-theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch {}
+    </script><link rel="stylesheet" href="/gitlo-releases/_astro/changelog.BWqJ1_Nr.css">
+<style>.docs[data-astro-cid-a4t6zzqc]{display:grid;grid-template-columns:200px minmax(0,1fr) 180px;gap:40px;padding-top:40px;padding-bottom:40px}.sidebar[data-astro-cid-a4t6zzqc],.toc[data-astro-cid-a4t6zzqc]{position:sticky;top:88px;align-self:start;display:flex;flex-direction:column;gap:2px}.sidebar[data-astro-cid-a4t6zzqc] nav[data-astro-cid-a4t6zzqc]{display:flex;flex-direction:column;gap:2px}.side-title[data-astro-cid-a4t6zzqc]{margin:0 0 8px;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.sidebar[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc],.toc[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc]{padding:5px 10px;border-radius:6px;color:var(--muted);font-size:.93rem}.sidebar[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc]:hover,.toc[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc]:hover{color:var(--fg);text-decoration:none}.sidebar[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc][aria-current=page]{background:var(--primary-soft);color:var(--primary);font-weight:600}.toc[data-astro-cid-a4t6zzqc] a[data-astro-cid-a4t6zzqc]{padding:3px 0;font-size:.85rem}.prose[data-astro-cid-a4t6zzqc]{min-width:0}.prose[data-astro-cid-a4t6zzqc] h1[data-astro-cid-a4t6zzqc]{font-size:clamp(1.8rem,4vw,2.4rem)}.lead[data-astro-cid-a4t6zzqc]{font-size:1.1rem;margin-top:0}.prose[data-astro-cid-a4t6zzqc] h2{margin-top:2em;padding-top:.5em;border-top:1px solid var(--border);font-size:1.45rem;scroll-margin-top:80px}.prose[data-astro-cid-a4t6zzqc] h3{margin-top:1.6em;scroll-margin-top:80px}.prose[data-astro-cid-a4t6zzqc] table{display:block;overflow-x:auto;margin:1em 0;font-size:.93rem}.prose[data-astro-cid-a4t6zzqc] blockquote{margin:1em 0;padding:.6em 1em;border-left:3px solid var(--primary);background:var(--bg-low);border-radius:0 8px 8px 0}.prose[data-astro-cid-a4t6zzqc] blockquote p{margin:.3em 0}.prose[data-astro-cid-a4t6zzqc] li{margin:.25em 0}.pager[data-astro-cid-a4t6zzqc]{display:flex;justify-content:space-between;gap:16px;margin-top:56px;padding-top:20px;border-top:1px solid var(--border);font-weight:600}@media(max-width:1000px){.docs[data-astro-cid-a4t6zzqc]{grid-template-columns:180px minmax(0,1fr)}.toc[data-astro-cid-a4t6zzqc]{display:none}}@media(max-width:720px){.docs[data-astro-cid-a4t6zzqc]{grid-template-columns:1fr;gap:24px;padding-top:24px}.sidebar[data-astro-cid-a4t6zzqc]{position:static;padding-bottom:16px;border-bottom:1px solid var(--border)}.sidebar[data-astro-cid-a4t6zzqc] nav[data-astro-cid-a4t6zzqc]{flex-direction:row;flex-wrap:wrap}}
+</style></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="container bar" data-astro-cid-5hce7sga> <a class="brand" href="/gitlo-releases/en/" data-astro-cid-5hce7sga> <img src="/gitlo-releases/logo.png" alt="" width="32" height="32" data-astro-cid-5hce7sga> <span data-astro-cid-5hce7sga>Gitlo</span> </a> <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" data-astro-cid-5hce7sga> <span class="visually-hidden" data-astro-cid-5hce7sga>Menu</span> <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" data-astro-cid-5hce7sga><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-astro-cid-5hce7sga></path></svg> </button> <nav id="site-nav" class="nav" data-astro-cid-5hce7sga> <a href="/gitlo-releases/en/#features" data-astro-cid-5hce7sga>Features</a><a href="/gitlo-releases/en/download/" data-astro-cid-5hce7sga>Download</a><a href="/gitlo-releases/en/changelog/" data-astro-cid-5hce7sga>What&#39;s new</a><a href="/gitlo-releases/en/docs/" aria-current="page" data-astro-cid-5hce7sga>Docs</a> <span class="nav-sep" data-astro-cid-5hce7sga></span> <a class="lang" href="/gitlo-releases/fr/docs/" hreflang="fr" lang="fr" data-astro-cid-5hce7sga> Français </a> <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme" data-astro-cid-5hce7sga> <svg class="sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" data-astro-cid-5hce7sga> <circle cx="12" cy="12" r="4" fill="currentColor" data-astro-cid-5hce7sga></circle> <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-astro-cid-5hce7sga></path> </svg> <svg class="moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" data-astro-cid-5hce7sga> <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor" data-astro-cid-5hce7sga></path> </svg> </button> </nav> </div> </header> <main data-astro-cid-5hce7sga>  <div class="container docs" data-astro-cid-a4t6zzqc> <aside class="sidebar" data-astro-cid-a4t6zzqc> <p class="side-title" data-astro-cid-a4t6zzqc>Documentation</p> <nav data-astro-cid-a4t6zzqc> <a href="/gitlo-releases/en/docs/getting-started/" aria-current="page" data-astro-cid-a4t6zzqc> Getting started </a><a href="/gitlo-releases/en/docs/shortcuts/" data-astro-cid-a4t6zzqc> Keyboard shortcuts </a><a href="/gitlo-releases/en/docs/git-flow/" data-astro-cid-a4t6zzqc> Git Flow </a><a href="/gitlo-releases/en/docs/accounts/" data-astro-cid-a4t6zzqc> Accounts and hosting </a><a href="/gitlo-releases/en/docs/network-shares/" data-astro-cid-a4t6zzqc> Repositories on a network share </a><a href="/gitlo-releases/en/docs/faq/" data-astro-cid-a4t6zzqc> FAQ and troubleshooting </a> </nav> </aside> <article class="prose" data-astro-cid-a4t6zzqc> <h1 data-astro-cid-a4t6zzqc>Getting started</h1> <p class="lead muted" data-astro-cid-a4t6zzqc>Install Gitlo, open your first repository and take a tour of the interface.</p> <blockquote>
+<p>Gitlo’s interface is in French for now. This guide gives each label as it appears in the app, followed by a translation.</p>
+</blockquote>
+<h2 id="requirements">Requirements</h2>
+<p>Gitlo runs the <strong><code>git</code> binary</strong> installed on your machine, so it uses your existing config, hooks, credential helper, SSH,
+GPG and Git LFS. Make sure <code>git</code> is on your <code>PATH</code>:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">git</span><span style="color:#79B8FF"> --version</span></span></code></pre>
+<p>If it is missing, Gitlo tells you at startup.</p>
+<h2 id="install">Install</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>System</th><th>File</th><th>Notes</th></tr></thead><tbody><tr><td>Windows</td><td><code>Gitlo-Setup-x.y.z.exe</code></td><td>Per-user install, no admin rights needed. Updates automatically.</td></tr><tr><td>macOS</td><td><code>Gitlo-x.y.z.dmg</code></td><td>Drag Gitlo to Applications. The app is unsigned: on first launch, right-click › <strong>Open</strong>.</td></tr><tr><td>Linux</td><td><code>Gitlo-x.y.z-linux-x64.tar.gz</code></td><td>Ubuntu 20.04 / Debian 11 or newer. Extract the archive, then run <code>gitlow</code>. Requires <code>libsecret</code>.</td></tr></tbody></table>
+<h2 id="open-a-repository">Open a repository</h2>
+<ul>
+<li><strong>Ouvrir</strong> (Open, <kbd>Ctrl</kbd> <kbd>O</kbd>): pick the folder of an existing repository.</li>
+<li><strong>Cloner un dépôt…</strong> (Clone) and <strong>Nouveau dépôt…</strong> (New repository) are in the command palette
+(<kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>P</kbd>).</li>
+<li>Once you connect a GitHub, GitLab or Gitea account, you can also clone straight from it.</li>
+</ul>
+<p>Each repository opens in its own tab. Tabs and recent repositories come back the next time you launch Gitlo.</p>
+<h2 id="the-interface">The interface</h2>
+<ul>
+<li><strong>Sidebar</strong>: local and remote branches (grouped into folders for <code>feature/…</code>), tags sorted by version, remotes, stashes,
+submodules and worktrees.</li>
+<li><strong>History</strong> (<kbd>Ctrl</kbd> <kbd>1</kbd>): the commit graph with branches and tags, plus details for the selected commit
+(files and diff).</li>
+<li><strong>Changes</strong> (<kbd>Ctrl</kbd> <kbd>2</kbd>): staged, unstaged and untracked files, and the commit box.</li>
+<li><strong>Pull requests</strong> (<kbd>Ctrl</kbd> <kbd>3</kbd>) and <strong>CI</strong> (<kbd>Ctrl</kbd> <kbd>4</kbd>), once you connect a hosting account.</li>
+<li><strong>Terminal</strong> (<kbd>Ctrl</kbd> <kbd>J</kbd>): a shell opened in the repository folder.</li>
+</ul>
+<blockquote>
+<p>On macOS, use <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd> in every shortcut.</p>
+</blockquote>
+<h2 id="your-first-commit">Your first commit</h2>
+<ol>
+<li>In <strong>Changes</strong>, select a file and press <kbd>Space</kbd> to stage it. You can also stage a single hunk, or even a
+single line, from the diff.</li>
+<li>Type your message in the commit box.</li>
+<li>Press <kbd>Ctrl</kbd> <kbd>Enter</kbd> to commit. If you made a mistake, <kbd>Ctrl</kbd> <kbd>Z</kbd> undoes the commit.</li>
+<li>Push with <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>U</kbd>.</li>
+</ol> <nav class="pager" data-astro-cid-a4t6zzqc> <span data-astro-cid-a4t6zzqc></span> <a href="/gitlo-releases/en/docs/shortcuts/" data-astro-cid-a4t6zzqc>Keyboard shortcuts →</a> </nav> </article> <aside class="toc" data-astro-cid-a4t6zzqc> <p class="side-title" data-astro-cid-a4t6zzqc>On this page</p> <a href="#requirements" data-astro-cid-a4t6zzqc>Requirements</a><a href="#install" data-astro-cid-a4t6zzqc>Install</a><a href="#open-a-repository" data-astro-cid-a4t6zzqc>Open a repository</a><a href="#the-interface" data-astro-cid-a4t6zzqc>The interface</a><a href="#your-first-commit" data-astro-cid-a4t6zzqc>Your first commit</a> </aside> </div>  </main> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="container foot" data-astro-cid-5hce7sga> <div class="brand small" data-astro-cid-5hce7sga> <img src="/gitlo-releases/logo.png" alt="" width="22" height="22" data-astro-cid-5hce7sga> <span data-astro-cid-5hce7sga>Gitlo, a desktop Git client.</span> </div> <div class="foot-links" data-astro-cid-5hce7sga> <a href="https://github.com/IMAMx39/gitlo-releases/releases" data-astro-cid-5hce7sga>Releases on GitHub</a> <a href="https://github.com/IMAMx39/gitlo-releases/issues" data-astro-cid-5hce7sga>Report an issue</a> <a href="/gitlo-releases/en/docs/" data-astro-cid-5hce7sga>Docs</a> </div> </div> </footer> <script type="module">const a=document.documentElement,n=()=>a.dataset.theme?a.dataset.theme==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;document.querySelector(".theme-toggle")?.addEventListener("click",()=>{const e=n()?"light":"dark";a.dataset.theme=e;try{localStorage.setItem("gitlo-theme",e)}catch{}});const t=document.querySelector(".menu-toggle"),o=document.getElementById("site-nav");t?.addEventListener("click",()=>{const e=t.getAttribute("aria-expanded")!=="true";t.setAttribute("aria-expanded",String(e)),o?.classList.toggle("open",e)});</script> </body> </html>  

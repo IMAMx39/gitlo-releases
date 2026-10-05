@@ -1,0 +1,1 @@
+import{d as a}from"./detect-os.CX83OjvI.js";const t=document.getElementById("hero-download"),e=a();if(t&&e){const s=JSON.parse(t.dataset.links??"{}"),n=JSON.parse(t.dataset.labels??"{}");s[e]&&(t.href=s[e]);const o=t.querySelector("span");o&&n[e]&&(o.textContent=n[e])}

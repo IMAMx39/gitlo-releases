@@ -1,0 +1,1 @@
+function r(){const t=navigator;if(t.userAgentData?.mobile)return null;const n=(t.userAgentData?.platform||navigator.platform||navigator.userAgent).toLowerCase(),e=navigator.userAgent.toLowerCase();return/android|iphone|ipad|ipod/.test(e)?null:n.includes("win")?"windows":n.includes("mac")?"macos":n.includes("linux")||n.includes("x11")?"linux":null}export{r as d};
