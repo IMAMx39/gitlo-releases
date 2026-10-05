@@ -1,35 +1,34 @@
 LICENCE D'UTILISATION DE GITLO (freeware)
+=========================================
 
 Copyright © 2026 Imam MAASSOU. Tous droits réservés.
 
-Gitlo est un logiciel **propriétaire distribué gratuitement** (freeware). Cette licence vous donne le droit de
-l'utiliser ; elle ne vous en transfère pas la propriété. En installant ou en utilisant Gitlo, vous acceptez ses conditions.
+Gitlo est un logiciel propriétaire distribué gratuitement (freeware). Cette licence vous donne le droit de l'utiliser ; elle ne vous en transfère pas la propriété. En installant ou en utilisant Gitlo, vous acceptez ses conditions.
 
-## 1. Ce que vous pouvez faire
+1. Ce que vous pouvez faire
+---------------------------
 
-- Installer et utiliser Gitlo **gratuitement**, sur autant d'appareils que vous le souhaitez.
-- L'utiliser à titre **personnel ou professionnel**, y compris en entreprise et sur des projets commerciaux.
-- Partager les **installeurs officiels non modifiés**, gratuitement, en indiquant leur source
-  ([gitloapp.github.io](https://gitloapp.github.io/) ou les [releases GitHub](https://github.com/IMAMx39/gitlo-releases/releases)).
+- Installer et utiliser Gitlo gratuitement, sur autant d'appareils que vous le souhaitez.
+- L'utiliser à titre personnel ou professionnel, y compris en entreprise et sur des projets commerciaux.
+- Partager les installeurs officiels non modifiés, gratuitement, en indiquant leur source (https://gitloapp.github.io/ ou les releases GitHub (https://github.com/IMAMx39/gitlo-releases/releases)).
 
-## 2. Ce que vous ne pouvez pas faire
+2. Ce que vous ne pouvez pas faire
+----------------------------------
 
 - Vendre, louer ou facturer Gitlo, ou l'inclure dans une offre payante.
-- Modifier Gitlo, le décompiler, le désassembler ou chercher à en obtenir le code source, sauf dans la mesure où la loi
-  applicable l'autorise expressément.
+- Modifier Gitlo, le décompiler, le désassembler ou chercher à en obtenir le code source, sauf dans la mesure où la loi applicable l'autorise expressément.
 - Retirer ou modifier les mentions de droits d'auteur.
 - Utiliser le nom ou le logo de Gitlo pour un autre produit, ou laisser croire à une approbation de l'auteur.
 
-## 3. Composants tiers
+3. Composants tiers
+-------------------
 
-Gitlo inclut des composants open source (Flutter et des packages Dart), chacun sous sa propre licence : MIT, BSD ou
-Apache 2.0. Leurs auteurs et le texte de leurs licences sont listés [plus bas sur cette page](https://gitloapp.github.io/fr/license/#third-party). Pour ces
-composants, ce sont leurs licences qui s'appliquent, et non la présente licence.
+Gitlo inclut des composants open source (Flutter et des packages Dart), chacun sous sa propre licence : MIT, BSD ou Apache 2.0. Leurs auteurs et le texte de leurs licences sont listés sur la page Licence du site (https://gitloapp.github.io/fr/license/#third-party). Pour ces composants, ce sont leurs licences qui s'appliquent, et non la présente licence.
 
-## 4. Vos données
+4. Vos données
+--------------
 
-Gitlo fonctionne sur votre machine et agit sur vos dépôts avec le `git` installé chez vous. Il ne contacte un service
-en ligne que dans les cas suivants :
+Gitlo fonctionne sur votre machine et agit sur vos dépôts avec le git installé chez vous. Il ne contacte un service en ligne que dans les cas suivants :
 
 - la vérification des mises à jour, auprès de GitHub (désactivable dans Paramètres › Mises à jour) ;
 - les hébergeurs (GitHub, GitLab, Gitea…) et le fournisseur d'IA que vous choisissez de connecter ;
@@ -37,67 +36,63 @@ en ligne que dans les cas suivants :
 
 Vos jetons d'accès restent dans le trousseau de votre système. L'auteur ne collecte aucune donnée d'utilisation.
 
-## 5. Absence de garantie
+5. Absence de garantie
+----------------------
 
-Gitlo est fourni **« tel quel »**, sans garantie d'aucune sorte, expresse ou implicite, notamment de bon
-fonctionnement, d'adéquation à un usage particulier ou d'absence d'erreur. Gitlo exécute de vraies commandes git sur vos
-dépôts : gardez des sauvegardes et poussez régulièrement votre travail.
+Gitlo est fourni « tel quel », sans garantie d'aucune sorte, expresse ou implicite, notamment de bon fonctionnement, d'adéquation à un usage particulier ou d'absence d'erreur. Gitlo exécute de vraies commandes git sur vos dépôts : gardez des sauvegardes et poussez régulièrement votre travail.
 
-## 6. Limitation de responsabilité
+6. Limitation de responsabilité
+-------------------------------
 
-Dans toute la mesure permise par la loi applicable, l'auteur ne pourra être tenu responsable d'aucun dommage, direct ou
-indirect, résultant de l'utilisation de Gitlo ou de l'impossibilité de l'utiliser, y compris une perte de données ou de
-code.
+Dans toute la mesure permise par la loi applicable, l'auteur ne pourra être tenu responsable d'aucun dommage, direct ou indirect, résultant de l'utilisation de Gitlo ou de l'impossibilité de l'utiliser, y compris une perte de données ou de code.
 
-## 7. Évolution de la licence
+7. Évolution de la licence
+--------------------------
 
-L'auteur peut modifier cette licence pour les versions futures de Gitlo. Une version déjà publiée reste régie par la
-licence qui l'accompagnait.
+L'auteur peut modifier cette licence pour les versions futures de Gitlo. Une version déjà publiée reste régie par la licence qui l'accompagnait.
 
-## 8. Fin de la licence
+8. Fin de la licence
+--------------------
 
-Si vous ne respectez pas ces conditions, votre droit d'utiliser Gitlo prend fin automatiquement. Vous devez alors
-cesser de l'utiliser et supprimer vos copies.
+Si vous ne respectez pas ces conditions, votre droit d'utiliser Gitlo prend fin automatiquement. Vous devez alors cesser de l'utiliser et supprimer vos copies.
 
-## Contact
+Contact
+-------
 
-Pour une question sur cette licence, ou pour un usage qu'elle n'autorise pas, ouvrez une
-[issue sur GitHub](https://github.com/IMAMx39/gitlo-releases/issues).
+Pour une question sur cette licence, ou pour un usage qu'elle n'autorise pas, ouvrez une issue sur GitHub (https://github.com/IMAMx39/gitlo-releases/issues).
 
---------------------------------------------------------------------------------
 
 GITLO LICENSE (freeware) - English translation
+==============================================
 
 Copyright © 2026 Imam MAASSOU. All rights reserved.
 
-Gitlo is **proprietary software distributed free of charge** (freeware). This license grants you the right to use it;
-it does not transfer ownership of it to you. By installing or using Gitlo, you agree to these terms.
+Gitlo is proprietary software distributed free of charge (freeware). This license grants you the right to use it; it does not transfer ownership of it to you. By installing or using Gitlo, you agree to these terms.
 
-## 1. What you may do
+1. What you may do
+------------------
 
-- Install and use Gitlo **free of charge**, on as many devices as you like.
-- Use it for **personal or professional** purposes, including at work and on commercial projects.
-- Share the **unmodified official installers**, free of charge, stating where they come from
-  ([gitloapp.github.io](https://gitloapp.github.io/) or the [GitHub releases](https://github.com/IMAMx39/gitlo-releases/releases)).
+- Install and use Gitlo free of charge, on as many devices as you like.
+- Use it for personal or professional purposes, including at work and on commercial projects.
+- Share the unmodified official installers, free of charge, stating where they come from (https://gitloapp.github.io/ or the GitHub releases (https://github.com/IMAMx39/gitlo-releases/releases)).
 
-## 2. What you may not do
+2. What you may not do
+----------------------
 
 - Sell, rent or charge for Gitlo, or include it in a paid offering.
-- Modify, decompile or disassemble Gitlo, or attempt to obtain its source code, except to the extent that applicable
-  law expressly permits it.
+- Modify, decompile or disassemble Gitlo, or attempt to obtain its source code, except to the extent that applicable law expressly permits it.
 - Remove or alter copyright notices.
 - Use the Gitlo name or logo for another product, or suggest an endorsement by the author.
 
-## 3. Third-party components
+3. Third-party components
+-------------------------
 
-Gitlo includes open source components (Flutter and Dart packages), each under its own license: MIT, BSD or Apache 2.0.
-Their authors and license texts are listed [further down this page](https://gitloapp.github.io/en/license/#third-party). Those components are governed by their
-own licenses, not by this one.
+Gitlo includes open source components (Flutter and Dart packages), each under its own license: MIT, BSD or Apache 2.0. Their authors and license texts are listed on the License page of the website (https://gitloapp.github.io/en/license/#third-party). Those components are governed by their own licenses, not by this one.
 
-## 4. Your data
+4. Your data
+------------
 
-Gitlo runs on your machine and works on your repositories with the `git` installed on your system. It only contacts an
-online service in these cases:
+Gitlo runs on your machine and works on your repositories with the git installed on your system. It only contacts an online service in these cases:
 
 - checking for updates, with GitHub (can be turned off in Settings › Updates);
 - the hosting services (GitHub, GitLab, Gitea…) and the AI provider you choose to connect;
@@ -105,30 +100,30 @@ online service in these cases:
 
 Your access tokens stay in your system keychain. The author does not collect any usage data.
 
-## 5. No warranty
+5. No warranty
+--------------
 
-Gitlo is provided **"as is"**, without warranty of any kind, express or implied, including fitness for a particular
-purpose or freedom from errors. Gitlo runs real git commands on your repositories: keep backups and push your work
-regularly.
+Gitlo is provided "as is", without warranty of any kind, express or implied, including fitness for a particular purpose or freedom from errors. Gitlo runs real git commands on your repositories: keep backups and push your work regularly.
 
-## 6. Limitation of liability
+6. Limitation of liability
+--------------------------
 
-To the fullest extent permitted by applicable law, the author shall not be liable for any damage, direct or indirect,
-arising from the use of or inability to use Gitlo, including loss of data or code.
+To the fullest extent permitted by applicable law, the author shall not be liable for any damage, direct or indirect, arising from the use of or inability to use Gitlo, including loss of data or code.
 
-## 7. Changes to this license
+7. Changes to this license
+--------------------------
 
-The author may change this license for future versions of Gitlo. A version already released remains governed by the
-license it was released with.
+The author may change this license for future versions of Gitlo. A version already released remains governed by the license it was released with.
 
-## 8. Termination
+8. Termination
+--------------
 
-If you do not comply with these terms, your right to use Gitlo ends automatically. You must then stop using it and
-delete your copies.
+If you do not comply with these terms, your right to use Gitlo ends automatically. You must then stop using it and delete your copies.
 
-## Contact
+Contact
+-------
 
-For questions about this license, or for a use it does not allow, open an
-[issue on GitHub](https://github.com/IMAMx39/gitlo-releases/issues).
+For questions about this license, or for a use it does not allow, open an issue on GitHub (https://github.com/IMAMx39/gitlo-releases/issues).
 
-*This is a translation. The French version is the reference text.*
+This is a translation. The French version is the reference text.
+
